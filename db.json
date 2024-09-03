@@ -1,0 +1,175 @@
+{
+  "users": [
+    
+
+  ],
+  "clothes": [
+    {
+      "id": 1,
+      "price": "3199",
+      "title": "Рубашка Синяя",
+      "category": "shirt",
+      "description": "%100.00 ХЛОПОК",
+      "img": "./assets/shirt-blue.webp",
+      "total": 100,
+      "sale": 20,
+      "isnew": "new"
+    },
+    {
+      "id": 2,
+      "price": "2990",
+      "title": "Футболка Бежевая",
+      "category": "t-shirt",
+      "clothes": "women",
+      "description": "%100.00 ХЛОПОК",
+      "img": "./assets/t-shirt-beige.avif",
+      "total": 100,
+      "sale": 20,
+      "isnew": "old"
+    },
+    {
+      "id": 3,
+      "price": "100",
+      "title": "Рубашка Синяя",
+      "category": "shirt",
+      "clothes": "women",
+      "description": "%100.00 ХЛОПОК",
+      "img": "./assets/shirt-blue.webp",
+      "total": 100,
+      "sale": 20,
+      "isnew": "old"
+    },
+    {
+      "id": 4,
+      "price": "3790",
+      "title": "Расклешенное комбинированное платье",
+      "category": "dresses",
+      "clothes": "women",
+      "description": "В состав входит хлопок. Трикотаж. Трикотаж, связанный резинкой. Фасон 'колокол'. Приталенный фасон. Длинный фасон. Круглый вырез горловины. Без рукавов. Широкая бретель. Без застежки.",
+      "img": "./assets/black__dress.avif",
+      "total": 90,
+      "sale": 10,
+      "isnew": "new"
+    },
+    {
+      "id": 5,
+      "price": "4490",
+      "title": "Атласное платье с разрезом",
+      "category": "dresses",
+      "clothes": "women",
+      "description": "Струящаяся ткань. Прямой фасон. Дизайн миди. Вырез горловины каре. Без рукавов. Узкие бретельки. Без подкладки. Без застежки. Разрез.",
+      "img": "./assets/blue__dress.avif",
+      "total": 96,
+      "sale": 5,
+      "isnew": "old"
+    },
+    {
+      "id": 6,
+      "price": "6990",
+      "title": "Короткий комбинезон с пуговицами",
+      "category": "shirt",
+      "clothes": "women",
+      "description": "100% лен. Короткий фасон. Прямой фасон. Рубашечный воротник. Короткие рукава. Спереди два накладных кармана. Спереди застежка на пуговицы. Эластичный пояс с завязками.",
+      "img": "./assets/kombez.webp",
+      "total": 97,
+      "sale": 5,
+      "isnew": "new"
+    },
+    {
+      "id": 7,
+      "price": "4490",
+      "title": "Джинсы-кюлоты с посадкой на талии",
+      "category": "jeans",
+      "clothes": "women",
+      "description": "Хлопковая ткань в джинсовом стиле. Фасон кюлоты. Укороченная длина. Посадка на талии. Шлевки. Пять карманов. Застежка на молнию и пуговицу. Длина по внутреннему шву 72 см. Рост модели: 179 см, размер: 36.",
+      "img": "./assets/jeans_skirt.webp",
+      "total": 99,
+      "sale": 1,
+      "isnew": "new"
+    },
+    {
+      "id": 8,
+      "price": "3790",
+      "title": "Трикотажная рубашка из хлопка",
+      "category": "shirt",
+      "clothes": "women",
+      "description": "В состав входит хлопок. Тонкий трикотаж. Прямой фасон. Рубашечный воротник. Длинные рукава. Спереди застежка на пуговицы. Образы для офиса.",
+      "img": "./assets/shirt__green.webp",
+      "total": 75,
+      "sale": 10,
+      "isnew": "new"
+    },
+    {
+      "id": 9,
+      "price": "4490",
+      "title": "Хлопковая рубашка с карманом",
+      "category": "shirt",
+      "clothes": "women",
+      "description": "Ткань 100% хлопок. Ткань бамбула. Объемный фасон. Длинный фасон. Рубашечный воротник. Длинные рукава с пуговицами на манжетах. Спереди накладной карман. Спереди застежка на пуговицы. Тотальный образ. ",
+      "img": "./assets/cotton_shirt_with_pocket.webp",
+      "total": 80,
+      "sale": 4,
+      "isnew": "new"
+    },
+    {
+      "id": 10,
+      "price": "1990",
+      "title": "Футболка из хлопка",
+      "category": "t-shirt",
+      "clothes": "women",
+      "description": "Ткань 100% хлопок. Прямой фасон. Круглый вырез горловины. Короткие рукава. Доступно в Plus.",
+      "img": "./assets/t-shirt__red.avif",
+      "total": 20,
+      "sale": 60,
+      "isnew": "old"
+    },
+    {
+      "id": 11,
+      "price": "1990",
+      "title": "Футболка из трикотажа в рубчик",
+      "category": "t-shirt",
+      "clothes": "women",
+      "description": "В состав входит хлопок. Трикотаж круговой вязки. Вязка резинкой. Прямой фасон. Круглый вырез горловины. Короткие рукава.",
+      "img": "./assets/t-shirt__blue.webp",
+      "total": 25,
+      "sale": 50,
+      "isnew": "old"
+    },
+    {
+      "id": 12,
+      "price": "2790",
+      "title": "Джемпер с короткими рукавами",
+      "category": "t-shirts",
+      "clothes": "women",
+      "description": "Тонкий трикотаж. Прямой фасон. Круглый вырез горловины. Короткие рукава. Без застежки. Края связан резинкой. ",
+      "img": "./assets/jumper_with_short_sleeves.webp",
+      "total": 99,
+      "sale": 5,
+      "isnew": "new"
+    },
+    {
+      "id": 13,
+      "price": "3490",
+      "title": "Струящаяся футболка",
+      "category": "t-shirts",
+      "clothes": "women",
+      "description": "Струящаяся ткань. Объемный фасон. Длинный фасон. Круглый вырез горловины. Короткие рукава. По бокам внизу разрезы. Тотальный образ.",
+      "img": "./assets/flowing_t-shirt.webp",
+      "total": 88,
+      "sale": 6,
+      "isnew": "new"
+    },
+    {
+      "id": 14,
+      "price": "2490",
+      "title": "Струящаяся рубашка с атласным блеском",
+      "category": "shirt",
+      "clothes": "women",
+      "description": "Ткань с атласным блеском. Струящаяся ткань. Прямой фасон. Рубашечный воротник. Короткие рукава. Спереди застежка на пуговицы. Доступно в Plus.",
+      "img": "./assets/flowing_shirt_with_satin_glitter.webp",
+      "total": 87,
+      "sale": 2,
+      "isnew": "new"
+    }
+  ]
+}

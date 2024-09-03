@@ -1,0 +1,22 @@
+.contactMap{
+    &__container{
+        h3{
+            margin-top: 190px;
+            font-size: 55px;
+            font-weight: 500;
+            margin-bottom: 26px;
+        }
+        p{
+            font-size: 17px;
+            font-weight: 500;
+            margin-bottom: 214px;
+            span{
+                color: #909090;
+            }
+        }
+    }
+    &__map{
+        height: 476px;
+    }
+
+}

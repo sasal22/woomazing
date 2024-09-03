@@ -1,0 +1,42 @@
+.header {
+  padding: 51px 0 41px;
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 2;
+  top: 0;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  div {
+    display: flex;
+    align-items: center;
+  }
+  &__lists {
+    display: flex;
+    column-gap: 45px;
+    li {
+      cursor: pointer;
+    }
+  }
+  &__info {
+    column-gap: 67px;
+    align-items: center;
+    p {
+      display: flex;
+      align-items: center;
+      column-gap: 13px;
+    }
+  }
+  &__logo {
+    column-gap: 11px;
+  }
+  &__user {
+    font-size: 26px;
+  }
+}
+.scrolled {
+  border-bottom: 1px solid grey;
+}

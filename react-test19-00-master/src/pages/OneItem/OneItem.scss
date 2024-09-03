@@ -1,0 +1,202 @@
+.oneItem{
+    margin-top: 100px;
+    width: 100%;
+    height: 729px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__container h1{
+        font-weight: 500;
+        font-size: 55px;
+        line-height: 110%;
+        letter-spacing: 0.02em;
+        margin-bottom: 26px;
+    }
+    &__container p{
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+    }
+
+    &__container span{
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #909090;
+    }
+    &__container h2{
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 110%;
+        letter-spacing: 0.02em;
+        margin: 130px 0 67px;
+    }
+
+    &__right{
+        width: 50%;
+        height: 100%;
+        padding: 117px 150px 117px 74px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 59px;
+        &__prices{
+            display: flex;
+            align-items: center;
+            column-gap: 20px;
+
+            .sale{
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 110%;
+                letter-spacing: 0.02em;
+                color: #998E78;
+            }
+
+            .price{
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 110%;
+                letter-spacing: 0.02em;
+                text-decoration: line-through;
+                color: #9c9c9c;
+            }
+        }
+
+    }
+
+    &__right p{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+    }
+
+    &__size{
+        display: flex;
+        flex-direction: column;
+        row-gap: 34px;
+
+        &__btn{
+            display: flex;
+            align-items: center;
+            column-gap: 14px;
+        }
+        
+        &__btn button{
+            width: 41px;
+            height: 41px;
+            border: 1px solid #000;
+            background: white;
+
+        }
+
+        &__btn button:hover{
+            background: black;
+            color: white;
+        }
+
+    }
+
+    &__color{
+        display: flex;
+        flex-direction: column;
+        row-gap: 34px;
+
+        &__box{
+            display: flex;
+            align-items: center;
+            column-gap: 14px;
+        }
+
+        &__box div{
+            border-radius: 100px;
+            width: 41px;
+            height: 41px;
+        }
+
+        &__box div:hover{
+            border: 1px solid #000;
+        }
+        .brown{
+            background: #927876;
+        }
+        .grey{
+            background: #d4d4d4;
+        }
+        .purple{
+            background:  #fd9696;
+        }
+        .yellow{
+            background: #fdc796;
+        }
+    }
+
+    &__add{
+        display: flex;
+        align-items: center;
+        column-gap: 11px;
+
+        &__count{
+            border: 1px solid #afafaf;
+            width: 68px;
+            height: 68px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+        }
+    }
+
+    &__add button{
+        padding: 22px 50px;
+        width: 268px;
+        height: 68px;
+        background: #6E9C9F;
+        color: white;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 139%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        border: none;
+    }
+    
+    &__carts{
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+        margin: 65px 0;
+    }
+
+    &__cart{
+        text-align: center;
+    }
+    &__cart h4{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 140%;
+        color: #000;
+        margin: 24px 0 7px;
+    }
+    &__cart p{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 140%;
+    }
+
+    
+}
+
+.oneItem img{
+    height: 729px;
+    width: 50%;
+}
+
+
+
+

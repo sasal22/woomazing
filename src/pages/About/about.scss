@@ -1,0 +1,71 @@
+.aboutPage {
+  padding: 180px 245px;
+  gap: 20px;
+}
+.about_conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 130px;
+  .brand {
+    width: 261px;
+    height: 111px;
+    margin: 3px, 269px, 846px, 84px;
+    h1 {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 55px;
+      line-height: 110%;
+      letter-spacing: 0.02em;
+      color: #000;
+      margin-bottom: 26px;
+      white-space: nowrap;
+    }
+
+    span {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 140%;
+      letter-spacing: 0.02em;
+      color: #909090;
+    }
+  }
+  .about_cart {
+    display: flex;
+    gap: 94px;
+    img {
+      width: 442px;
+      height: 547px;
+    }
+  }
+  .about_text {
+    padding: 113px 0;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000;
+    p {
+      font-size: 25px;
+      margin-bottom: 46px;
+    }
+  }
+  button {
+    padding: 22px 50px;
+    width: 260px;
+    height: 68px;
+    background-color: #6e9c9f;
+    align-self: center;
+    cursor: pointer;
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 139%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+  }
+}

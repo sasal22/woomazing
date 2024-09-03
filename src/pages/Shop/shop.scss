@@ -1,0 +1,113 @@
+.shop {
+
+    &__container {
+
+        h1 {
+            margin: 290px 0 26px;
+            font-weight: 500;
+            font-size: 55px;
+            line-height: 110%;
+            color: #000;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 140%;
+            color: #000;
+
+            span {
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 140%;
+                color: #909090;
+            }
+        }
+    }
+
+    &__category {
+        display: flex;
+        column-gap: 10px;
+        margin: 214px 0 92px;
+
+
+        li {
+            border: 1px solid #000;
+            width: 191px;
+            height: 62px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+           
+
+            a {
+                text-decoration: none;
+                color: #000;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 140%;
+            }
+        }
+
+        li:first-child a{
+            color: #fff
+        }
+
+        li:first-child {
+            width: 162px;
+            background-color: #000;
+        }
+    }
+
+    &__products-box {
+
+        p {
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 140%;
+            color: #808080;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 14px;
+            margin-top: 74px;
+
+            li {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 41px;
+                height: 41px;
+                border: 1px solid #000;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 140%;
+                letter-spacing: 0.02em;
+                text-align: center;
+                color: #000;
+                cursor: pointer;
+            }
+
+            li:first-child {
+                background-color: #000;
+                color: #fff;
+            }
+
+            li:last-child {
+                border: none;
+            }
+        }
+        
+    }
+
+    &__cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 80px;
+    }
+}

@@ -1,0 +1,63 @@
+.contactMail{
+    &__address{
+        width: 943px;
+        display: flex;
+        justify-content: space-between;
+        
+        h4{
+            font-size: 17px;
+            font-weight: 500;
+            margin-bottom: 19px;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+    &__form{
+        width: 443px;
+        h3{
+            margin: 130px 0 62px;
+            font-weight: 500;
+            font-size: 25px;
+        }
+        input{
+            width: 350px;
+            height: 40px;
+            line-height: 40px;
+            border: none;
+            border-bottom: 1px solid black;
+            display: block;
+            outline: none;
+            margin-bottom: 35px;
+            font-size: 17px;
+            font-weight: 500;
+            color: #868686;
+        }
+        .message{
+            width: 443px;
+            height: 134px;
+            line-height: 134px;
+        }
+        button{
+            width: 189px;
+            height: 68px;
+            padding: 22px 50px;
+            background: #6E9C9F;
+            border: none;
+            color: white;
+            font-size: 17px;
+            font-weight: 400;
+
+        }
+        .success{
+            width: 437px;
+            height: 84px;
+            padding: 30px 76px;
+            background: #F1EADC;
+            font-size: 17px;
+            font-weight: 500;
+            margin-top: 62px;
+        }
+    }
+}
